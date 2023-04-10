@@ -28,8 +28,17 @@ section {
 
   /* Aquí configurar el display flex
   de la sección entera */
+  display:flex;
+  flex-direction: column;
+  gap:10px;
 }
 
 /* Aquí crear los estilos para la clase avatar
  y configurar el display flex que requiere */
 
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
